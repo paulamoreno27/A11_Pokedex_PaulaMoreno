@@ -8,16 +8,20 @@
 
 </head>
     <style>
+     @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+
+    .silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: Silkscreen, sans-serif;
+    }
+        
         body {
             background-image: url(img/kanto-map.jpeg);
             background-repeat: no-repeat;
             background-size: 100%;
-            font-family: Pokemon;
-        }
-
-        @font-face {
-            font-family: Pokemon;
-            src: url(./pkmn.ttf);
+            font-family: Silkscreen, sans-serif;
         }
 
         .titulo{
@@ -36,12 +40,12 @@
     </style>
 <body>
     <div class="titulo">
-         <h1>Pokedex</h1>
+         <h1 class="silkscreen-regular"><strong>Pokedex</strong></h1>
     </div>
     <img src="img/pokedex.png">
-    <a class="pokemons" href="./pokemons/jigglypuff.html"><h2>Jigglypuff</h2></a>
-    <a class="pokemons" href="./pokemons/vulpix.html"><h2>Vulpix</h2></a>
-    <a class="pokemons" href="./pokemons/mew.html" ><h2>Mew</h2></a>
+    <a class="pokemons" href="./pokemons/jigglypuff.html"><h2 class="silkscreen-regular"><strong>Jigglypuff</strong></h2></a>
+    <a class="pokemons" href="./pokemons/vulpix.html"><h2 class="silkscreen-regular"><strong>Vulpix</strong></h2></a>
+    <a class="pokemons" href="./pokemons/mew.html" ><h2 class="silkscreen-regular"><strong>Mew</strong></h2></a>
 
 </body>
 </html>
