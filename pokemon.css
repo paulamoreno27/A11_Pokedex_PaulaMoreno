@@ -1,36 +1,24 @@
 body {
-    background-image: url(img/kanto-map.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-color: antiquewhite;
     font-family: Pokemon;
 }
+
 
 @font-face {
     font-family: Pokemon;
     src: url(./pkmn.ttf);
 }
 
-.titulos{
+.titulo {
     text-align: center;
-}
-
-.titulo{
-    background-color: rgba(0, 0, 0, 0.774);
-    margin-left: auto;
-    margin-right: auto;
-    width: 16em;
-    text-align: center;
-    color: rgb(219, 219, 219)
 }
 
 .pokemons {
     text-align: left;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
+
+
 
 
 
