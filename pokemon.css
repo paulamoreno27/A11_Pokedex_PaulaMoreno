@@ -1,5 +1,7 @@
 body {
     background-image: url(img/kanto-map.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 h1 {
