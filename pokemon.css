@@ -17,14 +17,31 @@ body {
     text-align: left;
 }
 
-#jiggly {
-    text-decoration-color: gainsboro;
+.jiggly {
+    background-color: grey;
+    border-radius: 5px;
 }
 
-#jigglys {
-    text-decoration-color: pink;
+.jigglys {
+    background-color: pink;
+    border-radius: 5px;
 }
 
+#vulpix {
+    background-color: orange;
+    border-radius: 5px;
+}
 
+#mew {
+    background-color: pink;
+    border-radius: 5px;
+}
 
+.inicio {
+    text-align: center;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
