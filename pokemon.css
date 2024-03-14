@@ -46,6 +46,10 @@ body.fondo2 {
     font-family: "Press Start 2P", system-ui;
 }
 
+.evo {
+    text-align: center;
+}
+
 .inicio {
     text-align: center;
     background-color: red;
