@@ -1,41 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
        
-.silkscreen-regular {
-font-family: "Silkscreen", sans-serif;
-font-weight: 400;
-font-style: normal;
+.press-start 2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body.fondo1 {
+    background-color: burlywood;
+    font-family: "Press Start 2P", system-ui;
 }
 
-body {
-    background-color: antiquewhite;
-    font-family: Pokemon;
+body.fondo2 {
+    background-color: pink;
+    font-family: "Press Start 2P", system-ui;    
 }
 
-.titulo {
+.titulo2 {
     text-align: center;
+    color: black;
+    font-family: "Press Start 2P", system-ui;
 }
 
+.info {
+    text-align: justify;
+    color: black;
+    font-family: "Press Start 2P", system-ui;
+}
 
 .gris {
     background-color: grey;
     border-radius: 5px;
-    font-family: "Silkscreen", sans-serif;
+    font-family: "Press Start 2P", system-ui;
 }
 
 .rosa {
-    background-color: pink;
+    background-color: palevioletred;
     border-radius: 5px;
-    font-family: "Silkscreen", sans-serif;
+    font-family: "Press Start 2P", system-ui;
 }
 
 #vulpix {
     background-color: orange;
     border-radius: 5px;
-}
-
-#mew {
-    background-color: pink;
-    border-radius: 5px;
+    font-family: "Press Start 2P", system-ui;
 }
 
 .inicio {
@@ -47,6 +55,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 16em;
+    font-family: "Press Start 2P", system-ui;
 }
 
 a {
