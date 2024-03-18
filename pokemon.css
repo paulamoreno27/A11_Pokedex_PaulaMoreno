@@ -6,9 +6,16 @@
     font-style: normal;
   }
 
+  @media only screen and (max-width: 600px) {
+    section {
+        max-width: 100%; 
+    }
+}
+
 body.fondo1 {
     background-color: burlywood;
     font-family: "Press Start 2P", system-ui;
+    
 }
 
 body.fondo2 {
